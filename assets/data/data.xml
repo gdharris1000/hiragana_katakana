@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <character>
+    <Hiragana>あ</Hiragana>
+    <Katakana> ア</Katakana>
+    <English> a</English>
+    <Category>a</Category>
+  </character>
+  <character>
+    <Hiragana>い</Hiragana>
+    <Katakana> イ</Katakana>
+    <English> i</English>
+    <Category>a</Category>
+  </character>
+  <character>
+    <Hiragana>う</Hiragana>
+    <Katakana> ウ</Katakana>
+    <English> u</English>
+    <Category>a</Category>
+  </character>
+  <character>
+    <Hiragana>え</Hiragana>
+    <Katakana> エ</Katakana>
+    <English> e</English>
+    <Category>a</Category>
+  </character>
+  <character>
+    <Hiragana>お</Hiragana>
+    <Katakana> オ</Katakana>
+    <English> o</English>
+    <Category>a</Category>
+  </character>
+  <character>
+    <Hiragana>か</Hiragana>
+    <Katakana> カ</Katakana>
+    <English> ka</English>
+    <Category>k</Category>
+  </character>
+  <character>
+    <Hiragana>が</Hiragana>
+    <Katakana> ガ</Katakana>
+    <English> ga</English>
+    <Category>g</Category>
+  </character>
+  <character>
+    <Hiragana>き</Hiragana>
+    <Katakana> キ</Katakana>
+    <English> ki</English>
+    <Category>k</Category>
+  </character>
+  <character>
+    <Hiragana>ぎ</Hiragana>
+    <Katakana> ギ</Katakana>
+    <English> gi</English>
+    <Category>g</Category>
+  </character>
+  <character>
+    <Hiragana>きゃ</Hiragana>
+    <Katakana> キャ</Katakana>
+    <English> kya</English>
+    <Category>ky</Category>
+  </character>
+  <character>
+    <Hiragana>ぎゃ</Hiragana>
+    <Katakana> ギャ</Katakana>
+    <English> gya</English>
+    <Category>gy</Category>
+  </character>
+  <character>
+    <Hiragana>きゅ</Hiragana>
+    <Katakana> キュ</Katakana>
+    <English> kyu</English>
+    <Category>ky</Category>
+  </character>
+  <character>
+    <Hiragana>ぎゅ</Hiragana>
+    <Katakana> ギュ</Katakana>
+    <English> gyu</English>
+    <Category>gy</Category>
+  </character>
+  <character>
+    <Hiragana>きょ</Hiragana>
+    <Katakana> キョ</Katakana>
+    <English> kyo</English>
+    <Category>ky</Category>
+  </character>
+  <character>
+    <Hiragana>ぎょ</Hiragana>
+    <Katakana> ギョ</Katakana>
+    <English> gyo</English>
+    <Category>gy</Category>
+  </character>
+  <character>
+    <Hiragana>く</Hiragana>
+    <Katakana> ク</Katakana>
+    <English> ku</English>
+    <Category>k</Category>
+  </character>
+  <character>
+    <Hiragana>ぐ</Hiragana>
+    <Katakana> グ</Katakana>
+    <English> gu</English>
+    <Category>g</Category>
+  </character>
+  <character>
+    <Hiragana>け</Hiragana>
+    <Katakana> ケ</Katakana>
+    <English> ke</English>
+    <Category>k</Category>
+  </character>
+  <character>
+    <Hiragana>げ</Hiragana>
+    <Katakana> ゲ</Katakana>
+    <English> ge</English>
+    <Category>g</Category>
+  </character>
+  <character>
+    <Hiragana>こ</Hiragana>
+    <Katakana> コ</Katakana>
+    <English> ko</English>
+    <Category>k</Category>
+  </character>
+  <character>
+    <Hiragana>ご</Hiragana>
+    <Katakana> ゴ</Katakana>
+    <English> go</English>
+    <Category>g</Category>
+  </character>
+  <character>
+    <Hiragana>さ</Hiragana>
+    <Katakana> サ</Katakana>
+    <English> sa</English>
+    <Category>s</Category>
+  </character>
+  <character>
+    <Hiragana>ざ</Hiragana>
+    <Katakana> ザ</Katakana>
+    <English> za</English>
+    <Category>z</Category>
+  </character>
+  <character>
+    <Hiragana>し</Hiragana>
+    <Katakana> シ</Katakana>
+    <English> shi</English>
+    <Category>s</Category>
+  </character>
+  <character>
+    <Hiragana>じ</Hiragana>
+    <Katakana> ジ</Katakana>
+    <English> ji</English>
+    <Category>j</Category>
+  </character>
+  <character>
+    <Hiragana>しゃ</Hiragana>
+    <Katakana> シャ</Katakana>
+    <English> sha</English>
+    <Category>sh</Category>
+  </character>
+  <character>
+    <Hiragana>じゃ</Hiragana>
+    <Katakana> ジャ</Katakana>
+    <English> jya</English>
+    <Category>j</Category>
+  </character>
+  <character>
+    <Hiragana>しゅ</Hiragana>
+    <Katakana> シュ</Katakana>
+    <English> shu</English>
+    <Category>sh</Category>
+  </character>
+  <character>
+    <Hiragana>じゅ</Hiragana>
+    <Katakana> ジュ</Katakana>
+    <English> jyu</English>
+    <Category>j</Category>
+  </character>
+  <character>
+    <Hiragana>しょ</Hiragana>
+    <Katakana> ショ</Katakana>
+    <English> sho</English>
+    <Category>sh</Category>
+  </character>
+  <character>
+    <Hiragana>じょ</Hiragana>
+    <Katakana> ジョ</Katakana>
+    <English> jyo</English>
+    <Category>j</Category>
+  </character>
+  <character>
+    <Hiragana>す</Hiragana>
+    <Katakana> ス</Katakana>
+    <English> su</English>
+    <Category>s</Category>
+  </character>
+  <character>
+    <Hiragana>ず</Hiragana>
+    <Katakana> ズ</Katakana>
+    <English> zu</English>
+    <Category>z</Category>
+  </character>
+  <character>
+    <Hiragana>せ</Hiragana>
+    <Katakana> セ</Katakana>
+    <English> se</English>
+    <Category>s</Category>
+  </character>
+  <character>
+    <Hiragana>ぜ</Hiragana>
+    <Katakana> ゼ</Katakana>
+    <English> ze</English>
+    <Category>z</Category>
+  </character>
+  <character>
+    <Hiragana>そ</Hiragana>
+    <Katakana> ソ</Katakana>
+    <English> so</English>
+    <Category>s</Category>
+  </character>
+  <character>
+    <Hiragana>ぞ</Hiragana>
+    <Katakana> ゾ</Katakana>
+    <English> zo</English>
+    <Category>z</Category>
+  </character>
+  <character>
+    <Hiragana>た</Hiragana>
+    <Katakana> タ</Katakana>
+    <English> ta</English>
+    <Category>t</Category>
+  </character>
+  <character>
+    <Hiragana>だ</Hiragana>
+    <Katakana> ダ</Katakana>
+    <English> da</English>
+    <Category>d</Category>
+  </character>
+  <character>
+    <Hiragana>ち</Hiragana>
+    <Katakana> チ</Katakana>
+    <English> chi</English>
+    <Category>t</Category>
+  </character>
+  <character>
+    <Hiragana>ぢ</Hiragana>
+    <Katakana> ヂ</Katakana>
+    <English> dzi</English>
+    <Category>d</Category>
+  </character>
+  <character>
+    <Hiragana>ちゃ</Hiragana>
+    <Katakana> チャ</Katakana>
+    <English> cha</English>
+    <Category>ch</Category>
+  </character>
+  <character>
+    <Hiragana>ぢゃ</Hiragana>
+    <Katakana> ヂャ</Katakana>
+    <English> dzya</English>
+    <Category>dz</Category>
+  </character>
+  <character>
+    <Hiragana>ちゅ</Hiragana>
+    <Katakana> チュ</Katakana>
+    <English> chu</English>
+    <Category>ch</Category>
+  </character>
+  <character>
+    <Hiragana>ぢゅ</Hiragana>
+    <Katakana> ヂュ</Katakana>
+    <English> dzyu</English>
+    <Category>dz</Category>
+  </character>
+  <character>
+    <Hiragana>ちょ</Hiragana>
+    <Katakana> チョ</Katakana>
+    <English> cho</English>
+    <Category>ch</Category>
+  </character>
+  <character>
+    <Hiragana>ぢょ</Hiragana>
+    <Katakana> ヂョ</Katakana>
+    <English> dzyo</English>
+    <Category>dz</Category>
+  </character>
+  <character>
+    <Hiragana>つ</Hiragana>
+    <Katakana> ツ</Katakana>
+    <English> tsu</English>
+    <Category>t</Category>
+  </character>
+  <character>
+    <Hiragana>づ</Hiragana>
+    <Katakana> ヅ</Katakana>
+    <English> dzu</English>
+    <Category>d</Category>
+  </character>
+  <character>
+    <Hiragana>て</Hiragana>
+    <Katakana> テ</Katakana>
+    <English> te</English>
+    <Category>t</Category>
+  </character>
+  <character>
+    <Hiragana>で</Hiragana>
+    <Katakana> デ</Katakana>
+    <English> de</English>
+    <Category>d</Category>
+  </character>
+  <character>
+    <Hiragana>と</Hiragana>
+    <Katakana> ト</Katakana>
+    <English> to</English>
+    <Category>t</Category>
+  </character>
+  <character>
+    <Hiragana>ど</Hiragana>
+    <Katakana> ド</Katakana>
+    <English> do</English>
+    <Category>d</Category>
+  </character>
+  <character>
+    <Hiragana>な</Hiragana>
+    <Katakana> ナ</Katakana>
+    <English> na</English>
+    <Category>n</Category>
+  </character>
+  <character>
+    <Hiragana>に</Hiragana>
+    <Katakana> ニ</Katakana>
+    <English> ni</English>
+    <Category>n</Category>
+  </character>
+  <character>
+    <Hiragana>にゃ</Hiragana>
+    <Katakana> ニャ</Katakana>
+    <English> nya</English>
+    <Category>ny</Category>
+  </character>
+  <character>
+    <Hiragana>にゅ</Hiragana>
+    <Katakana> ニュ</Katakana>
+    <English> nyu</English>
+    <Category>ny</Category>
+  </character>
+  <character>
+    <Hiragana>にょ</Hiragana>
+    <Katakana> ニョ</Katakana>
+    <English> nyo</English>
+    <Category>ny</Category>
+  </character>
+  <character>
+    <Hiragana>ぬ</Hiragana>
+    <Katakana> ヌ</Katakana>
+    <English> nu</English>
+    <Category>n</Category>
+  </character>
+  <character>
+    <Hiragana>ね</Hiragana>
+    <Katakana> ネ</Katakana>
+    <English> ne</English>
+    <Category>n</Category>
+  </character>
+  <character>
+    <Hiragana>の</Hiragana>
+    <Katakana> ノ</Katakana>
+    <English> no</English>
+    <Category>n</Category>
+  </character>
+  <character>
+    <Hiragana>は</Hiragana>
+    <Katakana> ハ</Katakana>
+    <English> ha</English>
+    <Category>h</Category>
+  </character>
+  <character>
+    <Hiragana>ば</Hiragana>
+    <Katakana> バ</Katakana>
+    <English> ba</English>
+    <Category>b</Category>
+  </character>
+  <character>
+    <Hiragana>ぱ</Hiragana>
+    <Katakana> パ</Katakana>
+    <English> pa</English>
+    <Category>p</Category>
+  </character>
+  <character>
+    <Hiragana>ひ</Hiragana>
+    <Katakana> ヒ</Katakana>
+    <English> hi</English>
+    <Category>h</Category>
+  </character>
+  <character>
+    <Hiragana>び</Hiragana>
+    <Katakana> ビ</Katakana>
+    <English> bi</English>
+    <Category>b</Category>
+  </character>
+  <character>
+    <Hiragana>ぴ</Hiragana>
+    <Katakana> ピ</Katakana>
+    <English> pi</English>
+    <Category>p</Category>
+  </character>
+  <character>
+    <Hiragana>ひゃ</Hiragana>
+    <Katakana> ヒャ</Katakana>
+    <English> hya</English>
+    <Category>hy</Category>
+  </character>
+  <character>
+    <Hiragana>びゃ</Hiragana>
+    <Katakana> ビャ</Katakana>
+    <English> bya</English>
+    <Category>by</Category>
+  </character>
+  <character>
+    <Hiragana>ぴゃ</Hiragana>
+    <Katakana> ピャ</Katakana>
+    <English> pya</English>
+    <Category>py</Category>
+  </character>
+  <character>
+    <Hiragana>ひゅ</Hiragana>
+    <Katakana> ヒュ</Katakana>
+    <English> hyu</English>
+    <Category>hy</Category>
+  </character>
+  <character>
+    <Hiragana>びゅ</Hiragana>
+    <Katakana> ビュ</Katakana>
+    <English> byu</English>
+    <Category>by</Category>
+  </character>
+  <character>
+    <Hiragana>ぴゅ</Hiragana>
+    <Katakana> ピュ</Katakana>
+    <English> pyu</English>
+    <Category>py</Category>
+  </character>
+  <character>
+    <Hiragana>ひょ</Hiragana>
+    <Katakana> ヒョ</Katakana>
+    <English> hyo</English>
+    <Category>hy</Category>
+  </character>
+  <character>
+    <Hiragana>びょ</Hiragana>
+    <Katakana> ビョ</Katakana>
+    <English> byo</English>
+    <Category>by</Category>
+  </character>
+  <character>
+    <Hiragana>ぴょ</Hiragana>
+    <Katakana> ピョ</Katakana>
+    <English> pyo</English>
+    <Category>py</Category>
+  </character>
+  <character>
+    <Hiragana>ふ</Hiragana>
+    <Katakana> フ</Katakana>
+    <English> fu</English>
+    <Category>h</Category>
+  </character>
+  <character>
+    <Hiragana>ぶ</Hiragana>
+    <Katakana> ブ</Katakana>
+    <English> bu</English>
+    <Category>b</Category>
+  </character>
+  <character>
+    <Hiragana>ぷ</Hiragana>
+    <Katakana> プ</Katakana>
+    <English> pu</English>
+    <Category>p</Category>
+  </character>
+  <character>
+    <Hiragana>へ</Hiragana>
+    <Katakana> ヘ</Katakana>
+    <English> he</English>
+    <Category>h</Category>
+  </character>
+  <character>
+    <Hiragana>べ</Hiragana>
+    <Katakana> ベ</Katakana>
+    <English> be</English>
+    <Category>b</Category>
+  </character>
+  <character>
+    <Hiragana>ぺ</Hiragana>
+    <Katakana> ペ</Katakana>
+    <English> pe</English>
+    <Category>p</Category>
+  </character>
+  <character>
+    <Hiragana>ほ</Hiragana>
+    <Katakana> ホ</Katakana>
+    <English> ho</English>
+    <Category>h</Category>
+  </character>
+  <character>
+    <Hiragana>ぼ</Hiragana>
+    <Katakana> ボ</Katakana>
+    <English> bo</English>
+    <Category>b</Category>
+  </character>
+  <character>
+    <Hiragana>ぽ</Hiragana>
+    <Katakana> ポ</Katakana>
+    <English> po</English>
+    <Category>p</Category>
+  </character>
+  <character>
+    <Hiragana>ま</Hiragana>
+    <Katakana> マ</Katakana>
+    <English> ma</English>
+    <Category>m</Category>
+  </character>
+  <character>
+    <Hiragana>み</Hiragana>
+    <Katakana> ミ</Katakana>
+    <English> mi</English>
+    <Category>m</Category>
+  </character>
+  <character>
+    <Hiragana>みゃ</Hiragana>
+    <Katakana> ミャ</Katakana>
+    <English> mya</English>
+    <Category>my</Category>
+  </character>
+  <character>
+    <Hiragana>みゅ</Hiragana>
+    <Katakana> ミュ</Katakana>
+    <English> myu</English>
+    <Category>my</Category>
+  </character>
+  <character>
+    <Hiragana>みょ</Hiragana>
+    <Katakana> ミョ</Katakana>
+    <English> myo</English>
+    <Category>my</Category>
+  </character>
+  <character>
+    <Hiragana>む</Hiragana>
+    <Katakana> ム</Katakana>
+    <English> mu</English>
+    <Category>m</Category>
+  </character>
+  <character>
+    <Hiragana>め</Hiragana>
+    <Katakana> メ</Katakana>
+    <English> me</English>
+    <Category>m</Category>
+  </character>
+  <character>
+    <Hiragana>も</Hiragana>
+    <Katakana> モ</Katakana>
+    <English> mo</English>
+    <Category>m</Category>
+  </character>
+  <character>
+    <Hiragana>や</Hiragana>
+    <Katakana> ヤ</Katakana>
+    <English> ya</English>
+    <Category>y</Category>
+  </character>
+  <character>
+    <Hiragana>ゆ</Hiragana>
+    <Katakana> ユ</Katakana>
+    <English> yu</English>
+    <Category>y</Category>
+  </character>
+  <character>
+    <Hiragana>よ</Hiragana>
+    <Katakana> ヨ</Katakana>
+    <English> yo</English>
+    <Category>y</Category>
+  </character>
+  <character>
+    <Hiragana>ら</Hiragana>
+    <Katakana> ラ</Katakana>
+    <English> ra</English>
+    <Category>r</Category>
+  </character>
+  <character>
+    <Hiragana>り</Hiragana>
+    <Katakana> リ</Katakana>
+    <English> ri</English>
+    <Category>r</Category>
+  </character>
+  <character>
+    <Hiragana>りゃ</Hiragana>
+    <Katakana> リャ</Katakana>
+    <English> rya</English>
+    <Category>ry</Category>
+  </character>
+  <character>
+    <Hiragana>りゅ</Hiragana>
+    <Katakana> リュ</Katakana>
+    <English> ryu</English>
+    <Category>ry</Category>
+  </character>
+  <character>
+    <Hiragana>りょ</Hiragana>
+    <Katakana> リョ</Katakana>
+    <English> ryo</English>
+    <Category>ry</Category>
+  </character>
+  <character>
+    <Hiragana>る</Hiragana>
+    <Katakana> ル</Katakana>
+    <English> ru</English>
+    <Category>r</Category>
+  </character>
+  <character>
+    <Hiragana>れ</Hiragana>
+    <Katakana> レ</Katakana>
+    <English> re</English>
+    <Category>r</Category>
+  </character>
+  <character>
+    <Hiragana>ろ</Hiragana>
+    <Katakana> ロ</Katakana>
+    <English> ro</English>
+    <Category>r</Category>
+  </character>
+  <character>
+    <Hiragana>わ</Hiragana>
+    <Katakana> ワ</Katakana>
+    <English> wa</English>
+    <Category>w</Category>
+  </character>
+  <character>
+    <Hiragana>を</Hiragana>
+    <Katakana> ヲ</Katakana>
+    <English> wo</English>
+    <Category>w</Category>
+  </character>
+  <character>
+    <Hiragana>ん</Hiragana>
+    <Katakana> ン</Katakana>
+    <English> n</English>
+    <Category>n</Category>
+  </character>
+</root>
