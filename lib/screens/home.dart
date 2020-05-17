@@ -10,10 +10,13 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   CharacterController characterController = CharacterController();
+
   List<Character> characters = [];
 
   @override
   void initState() {
+    characters.add(Character(
+        "getting data", "getting data", "getting data", "getting data"));
     getCharacters();
     super.initState();
   }
