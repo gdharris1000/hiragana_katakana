@@ -54,7 +54,7 @@ class CharacterController {
       return Category.catDz;
     } else if (categoryString == "n") {
       return Category.catN;
-    } else if (categoryString == "Ny") {
+    } else if (categoryString == "ny") {
       return Category.catNy;
     } else if (categoryString == "b") {
       return Category.catB;
