@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hiragana_katakana/controllers/character_controller.dart';
 import 'package:hiragana_katakana/models/category_model.dart';
 import 'package:hiragana_katakana/models/character_model.dart';
+import 'package:hiragana_katakana/controllers/quiz_controller.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String id = 'home';
@@ -12,24 +13,27 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   CharacterController characterController = CharacterController();
 
-  List<Character> characters = [];
+  List<Character> questions = [
+    Character("getting data", "getting data", "getting data", Category.catA)
+  ];
 
   @override
   void initState() {
-    characters.add(Character(
-        "getting data", "getting data", "getting data", Category.catA));
     getCharacters();
     super.initState();
   }
 
   void getCharacters() async {
+    List<Character> characters = [];
     characters = await characterController.getData(context);
-    updateCharacters();
+    getQuestions(characters);
   }
 
-  void updateCharacters() {
+  void getQuestions(characters) {
+    QuizController quizController =
+        QuizController(characters: characters, categories: [Category.catA]);
     setState(() {
-      characters = characters;
+      questions = quizController.generateQuestions();
     });
   }
 
@@ -40,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: <Widget>[
             Center(
-              child: Text(characters[0].hiragana),
+              child: Text(questions[0].hiragana),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,

@@ -11,10 +11,11 @@ class QuizController {
     List<Character> questions = [];
 
     for (int i = 0; i < characters.length; i++) {
-      if (categories.contains(characters[0].category)) {
-        questions.add(characters[0]);
+      if (categories.contains(characters[i].category)) {
+        questions.add(characters[i]);
       }
     }
+    questions.shuffle();
 
     return questions;
   }
