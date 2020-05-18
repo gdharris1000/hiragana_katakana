@@ -13,7 +13,9 @@ class AnswerGenerator {
     while (answers.length <= 3) {
       Random rnd = Random();
       int i = rnd.nextInt(characters.length);
-      answers.add(characters[i].english);
+      if (checkDuplicate(characters[i].english, answers)) {
+        answers.add(characters[i].english);
+      }
     }
     return answers;
   }
