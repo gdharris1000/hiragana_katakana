@@ -11,7 +11,7 @@ class FakeCharacter extends Fake implements Character {
 
 void main() {
   final character = FakeCharacter();
-  final QuizController quizController = QuizController([character, character]);
+  final QuizController quizController = QuizController();
 
   group('checkAnswer', () {
     test('false when answer is incorrect', () {
@@ -27,7 +27,7 @@ void main() {
 
   group('nextQuestion', () {
     group('quiz not finished', () {
-      final QuizController quizController2 = QuizController([character]);
+      final QuizController quizController2 = QuizController();
       test(
           'return true when the number of questions greater the number of answers',
           () {
@@ -40,6 +40,7 @@ void main() {
       });
     });
     group('quiz finished', () {
+      quizController.questions.add(character);
       test(
           'return false when the number of questions equals the number of answers',
           () {

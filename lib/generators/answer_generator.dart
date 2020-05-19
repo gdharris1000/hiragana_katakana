@@ -14,8 +14,10 @@ class AnswerGenerator {
       int i = rnd.nextInt(characters.length);
       if (checkDuplicate(characters[i].english, answers)) {
         answers.add(characters[i].english);
+        print(answers);
       }
     }
+    answers.shuffle();
     return answers;
   }
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hiragana_katakana/controllers/character_controller.dart';
-import 'package:hiragana_katakana/controllers/question_generator.dart';
+import 'package:hiragana_katakana/generators/question_generator.dart';
+import 'package:hiragana_katakana/generators/answer_generator.dart';
 import 'package:hiragana_katakana/models/category_model.dart';
 import 'package:hiragana_katakana/models/character_model.dart';
 import 'package:hiragana_katakana/controllers/quiz_controller.dart';
@@ -18,24 +19,17 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Character> questions = [
     Character("getting data", "getting data", "getting data", Category.catA)
   ];
+  QuizController quizController = QuizController();
 
   @override
   void initState() {
-    getCharacters();
+    setupQuiz();
     super.initState();
   }
 
-  void getCharacters() async {
-    List<Character> characters = [];
-    characters = await characterController.getData(context);
-    getQuestions(characters);
-  }
-
-  void getQuestions(characters) {
-    QuestionGenerator questionGenerator =
-        QuestionGenerator(characters: characters, categories: [Category.catA]);
+  void setupQuiz() {
     setState(() {
-      questions = questionGenerator.generateQuestions();
+      quizController.getCharacters(context);
     });
   }
 
@@ -46,19 +40,20 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: <Widget>[
             Center(
-              child: Text(questions[0].hiragana),
+              child: Text(quizController
+                  .questions[quizController.currentQuestion].hiragana),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 RaisedButton(
                   onPressed: () {},
-                  child: Text('Answer 1'),
+                  child: Text(quizController.options[0]),
                   padding: EdgeInsets.all(5.0),
                 ),
                 RaisedButton(
                   onPressed: () {},
-                  child: Text('Answer 2'),
+                  child: Text(quizController.options[1]),
                   padding: EdgeInsets.all(5.0),
                 ),
               ],
@@ -68,12 +63,12 @@ class _HomeScreenState extends State<HomeScreen> {
               children: <Widget>[
                 RaisedButton(
                   onPressed: () {},
-                  child: Text('Answer 3'),
+                  child: Text(quizController.options[2]),
                   padding: EdgeInsets.all(5.0),
                 ),
                 RaisedButton(
                   onPressed: () {},
-                  child: Text('Answer 4'),
+                  child: Text(quizController.options[3]),
                   padding: EdgeInsets.all(5.0),
                 ),
               ],

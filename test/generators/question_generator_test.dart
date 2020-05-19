@@ -1,4 +1,4 @@
-import 'package:hiragana_katakana/controllers/question_generator.dart';
+import 'package:hiragana_katakana/generators/question_generator.dart';
 import 'package:test/test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:hiragana_katakana/models/character_model.dart';
