@@ -26,17 +26,31 @@ void main() {
   });
 
   group('nextQuestion', () {
-    test(
-        'return true when the number of questions greater the number of answers',
-        () {
+    group('quiz not finished', () {
       final QuizController quizController2 = QuizController([character]);
-      expect(quizController2.nextQuestion(), equals(true));
+      test(
+          'return true when the number of questions greater the number of answers',
+          () {
+        expect(quizController2.nextQuestion(), equals(true));
+      });
+      test(
+          'currentQuestion increases when the number of questions is greater than the number of answers',
+          () {
+        expect(quizController2.currentQuestion, equals(1));
+      });
     });
-
-    test(
-        'return false when the number of questions equals the number of answers',
-        () {
-      expect(quizController.nextQuestion(), equals(false));
+    group('quiz finished', () {
+      test(
+          'return false when the number of questions equals the number of answers',
+          () {
+        expect(quizController.nextQuestion(), equals(false));
+      });
+      test(
+          'currentQuestion does not change when the number of questions is the same as the number of answers',
+          () {
+        quizController.nextQuestion();
+        expect(quizController.currentQuestion, equals(0));
+      });
     });
   });
 }

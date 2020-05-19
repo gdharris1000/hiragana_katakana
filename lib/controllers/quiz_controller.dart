@@ -25,6 +25,7 @@ class QuizController {
     if (questions.length == answers.length) {
       return false;
     } else {
+      currentQuestion++;
       return true;
     }
   }
