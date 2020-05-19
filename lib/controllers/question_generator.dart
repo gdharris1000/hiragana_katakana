@@ -1,18 +1,22 @@
-import 'package:flutter/material.dart';
-import 'package:hiragana_katakana/controllers/character_controller.dart';
 import 'package:hiragana_katakana/models/character_model.dart';
-import 'package:hiragana_katakana/models/question_model.dart';
+import 'package:hiragana_katakana/models/category_model.dart';
 
 class QuestionGenerator {
-  List<String> categories;
+  final List<Category> categories;
+  final List<Character> characters;
 
-  QuestionGenerator(this.categories);
+  QuestionGenerator({this.characters, this.categories});
 
-  final characterController = CharacterController();
+  List<Character> generateQuestions() {
+    List<Character> questions = [];
 
-//  List<Question> questions = getData(context);
+    for (int i = 0; i < characters.length; i++) {
+      if (categories.contains(characters[i].category)) {
+        questions.add(characters[i]);
+      }
+    }
+    questions.shuffle();
 
-  getData(context) async {
-    await characterController.getData(context);
+    return questions;
   }
 }

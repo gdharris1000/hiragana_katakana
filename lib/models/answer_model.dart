@@ -1,8 +1,8 @@
 import 'package:hiragana_katakana/models/character_model.dart';
 
-class Question {
+class Answer {
   String character;
   bool correct;
 
-  Question(this.character, this.correct);
+  Answer(this.character, this.correct);
 }
