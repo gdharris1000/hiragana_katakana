@@ -21,5 +21,11 @@ class QuizController {
         .add(Answer(character: question, correct: correct, userAnswer: answer));
   }
 
-  void nextQuestion() {}
+  bool nextQuestion() {
+    if (questions.length == answers.length) {
+      return false;
+    } else {
+      return true;
+    }
+  }
 }

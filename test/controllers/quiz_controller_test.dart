@@ -11,7 +11,7 @@ class FakeCharacter extends Fake implements Character {
 
 void main() {
   final character = FakeCharacter();
-  QuizController quizController = QuizController([character]);
+  final QuizController quizController = QuizController([character, character]);
 
   group('checkAnswer', () {
     test('false when answer is incorrect', () {
@@ -21,8 +21,22 @@ void main() {
 
     test('true when answer is correct', () {
       quizController.checkAnswer(character, 'a');
-      print(quizController.answers);
       expect(quizController.answers[1].correct, equals(true));
+    });
+  });
+
+  group('nextQuestion', () {
+    test(
+        'return true when the number of questions greater the number of answers',
+        () {
+      final QuizController quizController2 = QuizController([character]);
+      expect(quizController2.nextQuestion(), equals(true));
+    });
+
+    test(
+        'return false when the number of questions equals the number of answers',
+        () {
+      expect(quizController.nextQuestion(), equals(false));
     });
   });
 }
