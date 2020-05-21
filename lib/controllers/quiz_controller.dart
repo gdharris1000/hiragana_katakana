@@ -23,7 +23,6 @@ class QuizController {
     } else {
       correct = false;
     }
-
     answers
         .add(Answer(character: question, correct: correct, userAnswer: answer));
   }
@@ -33,6 +32,7 @@ class QuizController {
       return false;
     } else {
       currentQuestion++;
+      options = getOptions(questions[currentQuestion], questions);
       return true;
     }
   }

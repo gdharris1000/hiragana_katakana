@@ -16,10 +16,10 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   CharacterController characterController = CharacterController();
 
-  List<Character> questions = [
-    Character("getting data", "getting data", "getting data", Category.catA)
-  ];
   QuizController quizController = QuizController();
+
+  int currentQuestion = 0;
+  List<String> options = ["", "", "", ""];
 
   @override
   void initState() {
@@ -30,7 +30,25 @@ class _HomeScreenState extends State<HomeScreen> {
   void setupQuiz() {
     setState(() {
       quizController.getCharacters(context);
+      currentQuestion = quizController.currentQuestion;
+      options = quizController.options;
     });
+  }
+
+  void answerQuestion(answer) {
+    quizController.checkAnswer(quizController.questions[currentQuestion],
+        quizController.options[answer]);
+
+    if (quizController.nextQuestion()) {
+      setState(() {
+        currentQuestion = quizController.currentQuestion;
+      });
+
+//      quizController.getOptions(
+//          quizController.questions[currentQuestion], quizController.questions);
+
+      print(currentQuestion);
+    }
   }
 
   @override
@@ -40,19 +58,22 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: <Widget>[
             Center(
-              child: Text(quizController
-                  .questions[quizController.currentQuestion].hiragana),
+              child: Text(quizController.questions[currentQuestion].hiragana),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 RaisedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    answerQuestion(0);
+                  },
                   child: Text(quizController.options[0]),
                   padding: EdgeInsets.all(5.0),
                 ),
                 RaisedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    answerQuestion(1);
+                  },
                   child: Text(quizController.options[1]),
                   padding: EdgeInsets.all(5.0),
                 ),
@@ -62,12 +83,16 @@ class _HomeScreenState extends State<HomeScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 RaisedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    answerQuestion(2);
+                  },
                   child: Text(quizController.options[2]),
                   padding: EdgeInsets.all(5.0),
                 ),
                 RaisedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    answerQuestion(3);
+                  },
                   child: Text(quizController.options[3]),
                   padding: EdgeInsets.all(5.0),
                 ),
