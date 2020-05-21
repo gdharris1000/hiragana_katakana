@@ -13,8 +13,6 @@ class QuizController {
   int currentQuestion = 0;
   List<String> options = ["", "", "", ""];
 
-//  QuizController(this.questions);
-
   void checkAnswer(Character question, String answer) {
     bool correct = true;
 
@@ -49,7 +47,6 @@ class QuizController {
         QuestionGenerator(characters: characters, categories: [Category.catA]);
 
     questions = questionGenerator.generateQuestions();
-    print(questions[currentQuestion].hiragana);
     options = getOptions(questions[currentQuestion], questions);
   }
 

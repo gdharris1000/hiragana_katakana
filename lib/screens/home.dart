@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hiragana_katakana/controllers/character_controller.dart';
-import 'package:hiragana_katakana/generators/question_generator.dart';
-import 'package:hiragana_katakana/generators/answer_generator.dart';
-import 'package:hiragana_katakana/models/category_model.dart';
-import 'package:hiragana_katakana/models/character_model.dart';
 import 'package:hiragana_katakana/controllers/quiz_controller.dart';
-import 'package:hiragana_katakana/generators/question_generator.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String id = 'home';
@@ -19,7 +14,6 @@ class _HomeScreenState extends State<HomeScreen> {
   QuizController quizController = QuizController();
 
   int currentQuestion = 0;
-  List<String> options = ["", "", "", ""];
 
   @override
   void initState() {
@@ -31,7 +25,6 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       quizController.getCharacters(context);
       currentQuestion = quizController.currentQuestion;
-      options = quizController.options;
     });
   }
 
@@ -43,11 +36,6 @@ class _HomeScreenState extends State<HomeScreen> {
       setState(() {
         currentQuestion = quizController.currentQuestion;
       });
-
-//      quizController.getOptions(
-//          quizController.questions[currentQuestion], quizController.questions);
-
-      print(currentQuestion);
     }
   }
 
