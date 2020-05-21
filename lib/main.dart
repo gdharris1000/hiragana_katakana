@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/home.dart';
+import 'screens/menu.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,11 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      initialRoute: HomeScreen.id,
+      initialRoute: MenuScreen.id,
       routes: {
-        HomeScreen.id: (context) => HomeScreen(),
+        MenuScreen.id: (context) => MenuScreen(),
       },
     );
   }
 }
-
